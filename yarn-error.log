@@ -1,0 +1,31 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Fachry Ramadhan\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js init
+
+PATH: 
+  C:\Users\Fachry Ramadhan\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Fachry Ramadhan\bin;C:\Program Files\Common Files\Oracle\Java\javapath;D:\oracle\product\10.2.0\db_1\bin;C:\Program Files\Zulu\zulu-8\bin;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\MiKTeX\miktex\bin\x64;C:\Program Files\Gradle\gradle-6.6\bin;D:\APK\SQL Server\100\Tools\Binn;D:\APK\SQL Server\100\DTS\Binn;D:\APK\SQL Server\100\Tools\Binn\VSShell\Common7\IDE;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\Git\cmd;C:\Program Files\nodejs;C:\Users\Fachry Ramadhan\AppData\Local\Programs\Python\Python39\Scripts;C:\Users\Fachry Ramadhan\AppData\Local\Programs\Python\Python39;C:\Users\Fachry Ramadhan\AppData\Local\Microsoft\WindowsApps;C:\Program Files\heroku\bin;C:\Users\Fachry Ramadhan\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2020.3.3\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.3.2\bin;C:\Users\Fachry Ramadhan\AppData\Roaming\npm;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  14.21.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: Can't answer a question unless a user TTY
+      at ConsoleReporter.question (C:\Users\Fachry Ramadhan\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:92864:59)
+      at Object.<anonymous> (C:\Users\Fachry Ramadhan\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:85054:38)
+      at Generator.next (<anonymous>)
+      at step (C:\Users\Fachry Ramadhan\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:310:30)
+      at C:\Users\Fachry Ramadhan\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:321:13
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

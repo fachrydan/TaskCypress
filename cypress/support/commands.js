@@ -36,3 +36,37 @@ Cypress.Commands.add('login', (username, password) => {
     cy.get('input[name="submit"]').click()
 
 })
+
+Cypress.Commands.add('loginFake', (username, password) => {
+    cy.clearCookies()
+    cy.clearLocalStorage()
+    cy.get('#user_login').clear()
+    cy.get('#user_login').type("usernameFake")
+
+    cy.get('input[name="user_password"]').clear()
+    cy.get('input[name="user_password"]').type("passwordFake")
+
+    cy.get('input[name="submit"]').click()
+
+})
+
+
+Cypress.Commands.add('fillPayBills', (amount, date, desc) => {
+   
+   //SELECT PAYMENT & ACCOUNT
+   cy.get('select').eq(0).select('bofa')
+   cy.get('select').eq(1).select('5')
+
+   //INPUT AMOUNT
+   cy.get('#sp_amount').clear()
+   cy.get('#sp_amount').type(amount)
+
+   //INPUT DATE PICKER
+   cy.get('#sp_date').clear()
+   cy.get('#sp_date').type(date)
+
+   //INPUT DESCRIPTION
+   cy.get('#sp_description')
+   .type(desc, {force: true})
+
+})
